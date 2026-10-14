@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- INDICADOR: Configurações iniciais do documento HTML5 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- INDICADOR: Descrição da página para mecanismos de busca -->
+    <meta name="description"
+          content="Aprenda como funciona a fotossíntese, suas etapas e sua importância para a vida na Terra.">
+
+    <meta name="theme-color" content="#123c2b">
+
+    <title>VerdeVivo | Descubra a Fotossíntese</title>
+
+    <!-- INDICADOR: Importação da fonte Poppins do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- INDICADOR: Importação da normalização antes do CSS principal -->
+    <link rel="stylesheet" href="css/modern-normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="inicio">
+
+    <!-- INDICADOR: Cabeçalho fixo com logotipo e navegação -->
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+
+            <!-- INDICADOR: Identidade visual do site -->
+            <a class="marca" href="#inicio" aria-label="VerdeVivo - página inicial">
+                <img src="img/logo.png"
+                     alt="Logotipo do VerdeVivo"
+                     class="marca-imagem">
+                <span class="marca-texto">Verde<span>Vivo</span></span>
+            </a>
+
+            <!-- INDICADOR: Checkbox utilizado para abrir e fechar o menu sem JavaScript -->
+            <input type="checkbox"
+                   id="menu-toggle"
+                   class="menu-toggle">
+
+            <!-- INDICADOR: Botão visual do menu sanduíche acessível por teclado -->
+          <label for="menu-toggle" class="menu-botao">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+            <!-- INDICADOR: Navegação principal com quatro links internos -->
+            <nav class="navegacao" aria-label="Navegação principal">
+                <ul class="lista-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#teoria">A Fotossíntese</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- INDICADOR: Conteúdo principal organizado em uma única coluna -->
+    <main>
+
+        <!-- INDICADOR: SEÇÃO 1 - Conteúdo teórico sobre fotossíntese -->
+        <section id="teoria" class="secao teoria">
+
+            <!-- INDICADOR: Apresentação visual principal do conteúdo -->
+            <div class="hero">
+                <div class="container hero-conteudo">
+                    <span class="etiqueta">CIÊNCIA • NATUREZA • VIDA</span>
+
+                    <h1>A energia do Sol transforma o mundo.</h1>
+
+                    <p>
+                        Descubra como as plantas produzem seu próprio alimento
+                        e tornam possível grande parte da vida no nosso planeta.
+                    </p>
+
+                    <a href="#conceito" class="botao-principal">
+                        Explorar a fotossíntese
+                        <span aria-hidden="true">↓</span>
+                    </a>
+
+                    <div class="hero-destaques">
+                        <div>
+                            <strong>Sol</strong>
+                            <span>Fonte de energia</span>
+                        </div>
+                        <div>
+                            <strong>Água</strong>
+                            <span>Matéria-prima</span>
+                        </div>
+                        <div>
+                            <strong>CO₂</strong>
+                            <span>Carbono do ar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INDICADOR: Introdução didática ao conceito de fotossíntese -->
+            <div class="container teoria-conteudo">
+
+                <div class="titulo-secao" id="conceito">
+                    <span class="subtitulo">ENTENDA O PROCESSO</span>
+                    <h2>O que é fotossíntese?</h2>
+                    <p>
+                        Um processo biológico que converte a energia luminosa
+                        em energia química, sustentando os ecossistemas.
+                    </p>
+                </div>
+
+                <div class="texto-introdutorio">
+                    <p>
+                        A <strong>fotossíntese</strong> é o processo pelo qual
+                        plantas, algas e algumas bactérias utilizam a energia
+                        da luz para produzir compostos orgânicos. Nas plantas,
+                        esse processo ocorre principalmente nas folhas, em
+                        estruturas celulares chamadas cloroplastos.
+                    </p>
+
+                    <p>
+                        Para realizar a fotossíntese, a planta utiliza água
+                        (<strong>H₂O</strong>) e dióxido de carbono
+                        (<strong>CO₂</strong>). Com a energia luminosa, ela
+                        produz açúcares, como a glicose, e libera oxigênio
+                        (<strong>O₂</strong>) durante a fotossíntese oxigênica.
+                    </p>
+                </div>
+
+                <!-- INDICADOR: Equação química simplificada da fotossíntese -->
+                <div class="equacao">
+                    <span class="equacao-titulo">A equação geral simplificada</span>
+                    <p>
+                        6 CO₂ + 6 H₂O + luz
+                        <span aria-hidden="true">→</span>
+                        C₆H₁₂O₆ + 6 O₂
+                    </p>
+                    <small>
+                        Dióxido de carbono + água + energia luminosa
+                        → glicose + oxigênio.
+                    </small>
+                </div>
+
+                <!-- INDICADOR: Primeira figura ilustrativa com legenda semântica -->
+                <figure class="figura-destaque">
+                    <img src="img/figura1.jpg"
+                         alt="Raios solares atravessando a vegetação verde"
+                         loading="lazy"
+                         width="1200"
+                         height="800">
+                    <figcaption>
+                        Figura 1 — A luz solar fornece a energia necessária
+                        para as reações fotoquímicas da fotossíntese.
+                    </figcaption>
+                </figure>
+
+                <!-- INDICADOR: Explicação sobre a clorofila e os cloroplastos -->
+                <div class="bloco-conteudo">
+                    <span class="numero-bloco">01</span>
+                    <div>
+                        <h3>Clorofila: o pigmento verde</h3>
+
+                        <p>
+                            A clorofila é um pigmento presente nos cloroplastos
+                            das células vegetais. Ela absorve principalmente
+                            luz nas regiões azul e vermelha do espectro visível.
+                            Parte da luz verde é refletida ou transmitida, o
+                            que contribui para a coloração característica
+                            das folhas.
+                        </p>
+
+                        <p>
+                            A energia absorvida pelos pigmentos participa das
+                            reações que transformam energia luminosa em energia
+                            química utilizável pela célula.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- INDICADOR: Explicação didática da fase clara -->
+                <div class="bloco-conteudo">
+                    <span class="numero-bloco">02</span>
+                    <div>
+                        <h3>Fase clara: capturando a energia luminosa</h3>
+
+                        <p>
+                            As reações dependentes de luz ocorrem nas membranas
+                            dos tilacoides dos cloroplastos. A energia luminosa
+                            excita os pigmentos dos fotossistemas e impulsiona
+                            o transporte de elétrons.
+                        </p>
+
+                        <p>
+                            Nesse processo, ocorre a quebra de moléculas de
+                            água, chamada fotólise da água, que fornece elétrons
+                            e prótons e libera oxigênio. Também são produzidos
+                            ATP e NADPH, moléculas que armazenam energia e poder
+                            redutor para as etapas seguintes.
+                        </p>
+
+                        <ul class="lista-didatica">
+                            <li>Absorção de energia luminosa.</li>
+                            <li>Formação de ATP e NADPH.</li>
+                            <li>Liberação de oxigênio a partir da água.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- INDICADOR: Segunda figura ilustrativa com legenda semântica -->
+                <figure class="figura-destaque figura-secundaria">
+                    <img src="img/figura2.jpg"
+                         alt="Folhas verdes recebendo iluminação natural"
+                         loading="lazy"
+                         width="1200"
+                         height="800">
+                    <figcaption>
+                        Figura 2 — As folhas contêm estruturas celulares
+                        especializadas na captação e utilização da energia luminosa.
+                    </figcaption>
+                </figure>
+
+                <!-- INDICADOR: Explicação didática da fase escura ou ciclo de Calvin -->
+                <div class="bloco-conteudo">
+                    <span class="numero-bloco">03</span>
+                    <div>
+                        <h3>Fase escura: fixando o carbono</h3>
+
+                        <p>
+                            A chamada fase escura corresponde, principalmente,
+                            às reações do ciclo de Calvin-Benson, que ocorrem
+                            no estroma dos cloroplastos. O nome não significa
+                            que essas reações aconteçam exclusivamente à noite:
+                            elas utilizam ATP e NADPH produzidos nas reações
+                            dependentes de luz.
+                        </p>
+
+                        <p>
+                            Nesse ciclo, o dióxido de carbono é incorporado
+                            a moléculas orgânicas por meio da fixação do carbono.
+                            Ao final de várias etapas, são formadas moléculas
+                            que podem ser utilizadas para produzir carboidratos
+                            e outras substâncias necessárias ao crescimento vegetal.
+                        </p>
+
+                        <ul class="lista-didatica">
+                            <li>Fixação do carbono presente no CO₂.</li>
+                            <li>Consumo de ATP e NADPH.</li>
+                            <li>Produção de compostos orgânicos.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- INDICADOR: Importância ecológica e biológica da fotossíntese -->
+                <div class="importancia">
+                    <span class="subtitulo">POR QUE ISSO IMPORTA?</span>
+                    <h3>A fotossíntese sustenta a vida</h3>
+
+                    <p>
+                        A fotossíntese é fundamental para o funcionamento
+                        dos ecossistemas e para a manutenção da vida na Terra.
+                        Sua importância pode ser compreendida em diferentes aspectos.
+                    </p>
+
+                    <div class="importancia-lista">
+                        <article class="importancia-item">
+                            <span class="icone" aria-hidden="true">☀</span>
+                            <h4>Energia para os ecossistemas</h4>
+                            <p>
+                                Os organismos fotossintetizantes produzem
+                                matéria orgânica que sustenta as cadeias alimentares.
+                            </p>
+                        </article>
+
+                        <article class="importancia-item">
+                            <span class="icone" aria-hidden="true">O₂</span>
+                            <h4>Liberação de oxigênio</h4>
+                            <p>
+                                A fotossíntese oxigênica libera o oxigênio
+                                utilizado na respiração aeróbica.
+                            </p>
+                        </article>
+
+                        <article class="importancia-item">
+                            <span class="icone" aria-hidden="true">CO₂</span>
+                            <h4>Ciclo do carbono</h4>
+                            <p>
+                                O processo incorpora carbono do CO₂ em
+                                compostos orgânicos, participando do ciclo global do carbono.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- INDICADOR: Encerramento da seção teórica -->
+                <div class="conclusao">
+                    <h3>Uma pequena folha, um grande impacto.</h3>
+                    <p>
+                        Ao transformar energia luminosa em energia química,
+                        os organismos fotossintetizantes contribuem para a
+                        produção de alimento, para o ciclo do carbono e para
+                        a manutenção dos ecossistemas.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- INDICADOR: SEÇÃO 2 - Galeria flexível e referências bibliográficas -->
+        <section id="galeria" class="secao secao-galeria">
+
+            <div class="container">
+                <!-- INDICADOR: Título e apresentação da galeria -->
+                <div class="titulo-secao titulo-galeria">
+                    <span class="subtitulo">A NATUREZA EM FOCO</span>
+                    <h2>Galeria da fotossíntese</h2>
+                    <p>
+                        Observe a beleza das plantas, das folhas e da luz
+                        que alimenta esse processo essencial.
+                    </p>
+                </div>
+
+                <!-- INDICADOR: Galeria organizada exclusivamente com Flexbox -->
+                <div class="galeria-flex">
+
+                    <figure class="galeria-item">
+                        <img src="img/galeria1.jpg"
+                             alt="Raios de sol entre folhas de uma árvore"
+                             loading="lazy"
+                             width="700"
+                             height="500">
+                        <figcaption>
+                            <span>01</span>
+                            Luz e vegetação
+                        </figcaption>
+                    </figure>
+
+                    <figure class="galeria-item">
+                        <img src="img/galeria2.jpg"
+                             alt="Detalhe de uma folha verde iluminada"
+                             loading="lazy"
+                             width="700"
+                             height="500">
+                        <figcaption>
+                            <span>02</span>
+                            Pigmentos vegetais
+                        </figcaption>
+                    </figure>
+
+                    <figure class="galeria-item">
+                        <img src="img/galeria3.jpg"
+                             alt="Vegetação recebendo luz natural"
+                             loading="lazy"
+                             width="700"
+                             height="500">
+                        <figcaption>
+                            <span>03</span>
+                            Energia luminosa
+                        </figcaption>
+                    </figure>
+
+                    <figure class="galeria-item">
+                        <img src="img/galeria4.jpg"
+                             alt="Textura e detalhes de folhas verdes"
+                             loading="lazy"
+                             width="700"
+                             height="500">
+                        <figcaption>
+                            <span>04</span>
+                            Diversidade vegetal
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+                <!-- INDICADOR: Caixa de referências bibliográficas utilizadas -->
+                <aside id="referencias" class="referencias">
+                    <span class="subtitulo">PARA SABER MAIS</span>
+                    <h2>Referências bibliográficas</h2>
+
+                    <ol>
+                        <li>
+                            TAIZ, Lincoln et al.
+                            <em>Fisiologia e desenvolvimento vegetal.</em>
+                            Obra de referência sobre fisiologia vegetal,
+                            pigmentos e processos fotossintéticos.
+                        </li>
+
+                        <li>
+                            Urry, Lisa A. et al.
+                            <em>Biologia de Campbell.</em>
+                            Pearson. Capítulos sobre fotossíntese e metabolismo energético.
+                        </li>
+
+                        <li>
+                            OpenStax.
+                            <em>Biology 2e — Photosynthesis.</em>
+                            Material didático sobre as reações dependentes
+                            de luz e o ciclo de Calvin.
+                            <a href="https://openstax.org/books/biology-2e/pages/8-introduction"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Consultar material online
+                            </a>.
+                        </li>
+
+                        <li>
+                            NASA Earth Observatory.
+                            <em>The Carbon Cycle.</em>
+                            Material de apoio sobre o ciclo do carbono.
+                            <a href="https://earthobservatory.nasa.gov/features/CarbonCycle"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Consultar material online
+                            </a>.
+                        </li>
+
+                        <li>
+                            Unsplash.
+                            Fotografias de natureza utilizadas na composição visual.
+                            <a href="https://unsplash.com/"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Acessar o acervo de imagens
+                            </a>.
+                        </li>
+                    </ol>
+
+                    <p class="nota-referencias">
+                        Nota acadêmica: confira as edições consultadas e
+                        complete os dados bibliográficos exigidos pela instituição.
+                        As fotografias devem ser identificadas individualmente
+                        caso o professor solicite a autoria de cada imagem.
+                    </p>
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- INDICADOR: Rodapé com identificação acadêmica do desenvolvedor -->
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <a href="#inicio" class="marca marca-rodape">
+                <span class="marca-texto">Verde<span>Vivo</span></span>
+            </a>
+
+            <p>
+                Projeto educativo desenvolvido para fins acadêmicos.
+            </p>
+
+            <!-- INDICADOR: Substitua os campos abaixo pelos dados do estudante -->
+            <div class="dados-desenvolvedor">
+                <p><strong>Desenvolvedor:</strong> Seu nome completo</p>
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+                <p><strong>Disciplina:</strong> Nome da disciplina</p>
+            </div>
+
+            <p class="copyright">
+                © 2026 VerdeVivo. Conteúdo educativo.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

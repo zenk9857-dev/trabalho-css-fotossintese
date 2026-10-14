@@ -1,0 +1,129 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* INDICADOR: Remoção da margem padrão do documento */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+}
+
+/* INDICADOR: Configuração consistente do corpo da página */
+body {
+    margin: 0;
+}
+
+/* INDICADOR: Remoção de margens padrão dos títulos e parágrafos */
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* INDICADOR: Exibição consistente dos elementos semânticos */
+main {
+    display: block;
+}
+
+/* INDICADOR: Padronização das linhas horizontais */
+hr {
+    height: 0;
+    color: inherit;
+}
+
+/* INDICADOR: Padronização dos elementos de texto */
+abbr[title] {
+    text-decoration: underline dotted;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/* INDICADOR: Herança da fonte nos elementos de formulário */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+/* INDICADOR: Correção da aparência de botões e controles */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+    appearance: button;
+}
+
+/* INDICADOR: Padronização de imagens e mídias */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    vertical-align: middle;
+}
+
+/* INDICADOR: Evita que imagens ultrapassem seus contêineres */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* INDICADOR: Remove estilos de lista quando utilizados em navegação */
+menu,
+ol,
+ul {
+    padding: 0;
+}
+
+/* INDICADOR: Consistência na aparência dos links */
+a {
+    color: inherit;
+}
+
+/* INDICADOR: Consistência dos elementos de texto pré-formatado */
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+/* INDICADOR: Comportamento previsível dos campos de texto */
+textarea {
+    resize: vertical;
+}
+
+/* INDICADOR: Padronização dos campos de número */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/* INDICADOR: Preservação do destaque de foco para acessibilidade */
+:focus-visible {
+    outline: 3px solid #6cae75;
+    outline-offset: 3px;
+}

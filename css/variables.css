@@ -1,0 +1,56 @@
+/* Variáveis CSS
+As variáveis armazenam valores que podem ser reutilizados em todo o
+projeto (cores, sombras, raios e medidas). Ajudam a manter a consistência
+e facilitam a manutenção do código.
+Os valores são específicos deste projeto.
+*/
+
+:root {
+    /* Cores */
+    --color-primary: #174b35;
+    --color-primary-dark: #103a29;
+    --color-primary-light: #e5f0e8;
+    --color-accent: #a6c96a;
+    --color-background: #f8faf6;
+    --color-surface: #ffffff;
+    --color-surface-green: #edf4ec;
+    --color-text: #24352b;
+    --color-text-light: #56645b;
+    --color-eyebrow: #4a6b26;
+    --color-brand-highlight: #4f7228;
+    --color-placeholder: #66756b;
+    --color-border: #dce6dc;
+    --color-white: #ffffff;
+    --color-input-background: #fbfdfb;
+    --color-background-end: #eaf3e9;
+    --color-accent-light: #c5dda9;
+    --color-on-dark: #dce9df;
+    --color-on-dark-soft: #d6e5d8;
+    --color-on-dark-muted: #b9cdbf;
+
+    /* Sombras */
+    --shadow-soft: 0 12px 35px rgba(23, 75, 53, 0.08);
+    --shadow-card: 0 8px 25px rgba(23, 75, 53, 0.07);
+
+    /* Bordas */
+    --radius-small: 12px;
+    --radius-medium: 20px;
+    --radius-large: 30px;
+
+    /* Medidas */
+    --header-height: 82px;
+    --container-width: 1160px;
+}
+
+/* Ajustes das variáveis conforme a largura da tela */
+@media (max-width: 760px) {
+    :root {
+        --header-height: 72px;
+    }
+}
+
+@media (min-width: 1500px) {
+    :root {
+        --container-width: 1240px;
+    }
+}
